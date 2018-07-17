@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+	<link rel="shortcut icon" type="text/css" href="img/favicon.png">
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+<section>
+	<header class="header">
+		<div class="logo">
+			<a href="yiwang/index.html">
+				<img src="https://cdn.ywart.com/header/logo.png">
+			</a>
+			<p>—原创艺术品电商</p>
+		</div>
+		<div class="header-mid">
+			<div class="works">
+				<a href="">作品</a>
+				<a class="iconfont icon-down"></a>
+				<div class="second">
+					<p style="font-weight: bold;border-bottom: 1px solid #ccc;">作品</p>
+					<p>艺术家</p>
+				</div>
+			</div>
+			<img  src="https://www.ywart.com/svg_file?path=/Content/image/search.svg&rgb=51,51,51">
+			<input type="" name="" placeholder="搜索感兴趣的关键字">
+		</div>
+		<div class="header-right">
+			<div class="header-right-one">
+				<a href=""><img src="https://cdn.ywart.com/header/app.png"></a>
+				<a href="" class="header-right-text">下载APP</a>
+			</div>
+			<div class="header-right-two">
+				<a href=""><img src="https://cdn.ywart.com/header/login.png"></a>
+				<a href="html/register.html" class="header-right-text">登录/注册</a>
+			</div>
+			<div class="header-right-three">
+				<a href=""><img src="https://cdn.ywart.com/header/car.png"></a>
+				<a href="" class="header-right-text">购物车</a>
+			</div>
+		</div>
+	</header>
+	<div class="menu">
+		<div class="index" style="margin-left: 32%;">
+			<a href="./index.html">首页</a>
+		</div>
+		<div class="arts">
+			<a href="html/lists.html">原创艺术</a>
+		</div>
+		<div class="index">
+			<a href="">造艺</a>
+		</div>
+		<div class="tibetin-art">
+			<a href="">藏艺术</a>
+		</div>
+		<div class="arts">
+			<a href="">艺居生活</a>
+		</div>
+	</div>
+	<div class="banner">
+		<ul class="imgs">
+			<li class="item"style="z-index: -1;">
+				<img src="http://cdn.ywart.com/material/pc/banner/201806211927312305d2083fd.jpg" alt="">
+			</li>
+			<li class="item" style="z-index: -2;">
+				<img src="http://cdn.ywart.com/material/pc/banner/2018061514133013366a74c49.jpg" alt="">
+			</li>
+			<li class="item" style="z-index: -3;">
+				<img src="http://cdn.ywart.com/material/pc/banner/20180523114724233db555b74.jpg" alt="">
+			</li>
+			<li class="item" style="z-index: -4;">
+				<img src="http://cdn.ywart.com/material/pc/banner/20180523114758733d29f17db.jpg" alt="">
+			</li>
+			<li class="item" style="z-index: -5;">
+				<img src="https://cdn.ywart.com/material/pc/banner/201710171717464929d9e78f3.jpg" alt="">
+			</li>
+			<li class="item" style="z-index: -6;">
+				<img src="https://cdn.ywart.com/material/pc/banner/201710171717339817d53cf72.jpg" alt="">
+			</li>
+			<li class="item" style="z-index: -7;">
+				<img src="http://cdn.ywart.com/material/pc/banner/201712041039586833c573503.jpg" alt="">
+			</li>
+			<li class="item" style="z-index: -8;">
+				<img src="http://cdn.ywart.com/material/pc/banner/2018062817461940569508d10.jpg" alt="">
+			</li>
+		</ul>
+		<div class="circle">
+			<span class="current"></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<div class="recommend">
+		<div class="nav reco-top">
+			<ul class="nav nav-tabs">
+				<li role="presentation"><h2>推荐 / CATEGORY</h2></li>
+				<li role="presentation" style="margin-left: 160px;color:#003569;"><span >更多</span></li>
+			    <li role="presentation" class=" navbar-right"><a>水彩</a></li>
+			    <li role="presentation" class="navbar-right"><a>水墨</a></li>
+			    <li role="presentation" class="navbar-right"><a>版画</a></li>
+			    <li role="presentation" class="active navbar-right"><a>油画</a></li>
+			</ul>
+		</div>
+		<!-- <div class="reco-top">
+			<h2>推荐 / CATEGORY</h2>
+			<span style="color:#003569; display: inline-block; margin-top: 5px;">更多</span>
+			<div class="reco-top-right1">水彩</div>
+			<div class="reco-top-right2">水墨</div>
+			<div class="reco-top-right3">版画</div>
+			<div class="reco-top-right4">油画</div>
+		</div> -->
+		<div class="reco-top" style="border:none;"></div>
+		<div class="reco-bottom">
+			<div class="reco-bottom-one">
+				<div class="reco-bottom-one-one"><img src="img/images/recommend_03.png" class="reco-bottom-img"></div>
+				<p class="p1">刘銧銧</p>
+				<p>舞蹈，2016</p>
+				<p>布面油画 100x80cm</p>
+				<p class="p2">¥32,750</p>
+			</div>
+			<div class="reco-bottom-one bot">
+				<div class="reco-bottom-one-one"><img src="img/images/recommend_05.png" class="reco-bottom-img"></div>
+				<p class="p1">杜萌萌</p>
+				<p>海-2，2015</p>
+				<p>布面油画 30x30cm</p>
+				<p class="p2">¥2,050</p>
+			</div>
+			<div class="reco-bottom-one">
+				<div class="reco-bottom-one-one"><img src="img/images/recommend_07.png" class="reco-bottom-img"></div>
+				<p class="p1">吕楠</p>
+				<p>某年纪事，2018</p>
+				<p>布面油画 80x100cm</p>
+				<p class="p2">¥26,500</p>
+			</div>
+			<div class="reco-bottom-one">
+				<div class="reco-bottom-one-one"><img src="img/images/recommend_09.png" class="reco-bottom-img"></div>
+				<p class="p1">吴霜</p>
+				<p>百卉含英，2016</p>
+				<p>布面油画 50x70cm</p>
+				<p class="p2">¥23,000</p>
+			</div>
+		</div>
+	</div>
+	<div class="new">
+		<div class="reco-top">
+			<h2>最新上架 / NEW</h2>
+			<div class="change">
+				<img src="https://www.ywart.com/Content/image/refresh.svg">
+				<span>换一换</span>
+			</div>
+		</div>
+		<div class="reco-top" style="border:none;"></div>
+		<div class="new-bottom">
+			<div class="new-bottom-one">
+				<div class="new-bottom-one-one">
+					<p style="margin-top: 100px;">张峰田</p>
+					<p>理想国-归家十</p>
+					<p>布面油画 100x80cm</p>
+					<p style="font-weight: bold;">¥10,350</p>
+				</div>
+				<img src="https://cdn.ywart.com/yw/201711131810109451a37f693.jpg@560h_560w_1e_1c_1wh_90Q" class="new-bottom-one-img">
+			</div>
+			<div class="new-bottom-one" style="margin-left: 20px;">
+				<div class="new-bottom-one-one">
+					<p style="margin-top: 100px;">卓瑞端</p>
+					<p>南园·多梦时节系列之四</p>
+					<p>纸本水墨 45x80cm</p>
+					<p style="font-weight: bold;">¥16,050</p>
+				</div>
+				<img src="https://cdn.ywart.com/yw/20180322151859759dc329575.jpg@560h_560w_1e_1c_1wh_90Q" class="new-bottom-one-img">
+			</div>
+			<div class="new-bottom-two">
+				<div class="new-bottom-two-two">
+					<div class="new-bottom-one-one">
+					<p style="margin-top:40px;">卓瑞端</p>
+					<p>南园·多梦时节系列之四</p>
+					<p>纸本水墨 45x80cm</p>
+					<p style="font-weight: bold;">¥16,050</p>
+					</div>
+					<img src="https://cdn.ywart.com/yw/201710251540165821c41bd7c.jpg@260h_260w_1e_1c_1wh_90Q" width="130px" height="130px" class="new-bottom-two-img">
+				</div>
+				<div>
+					<div class="new-bottom-two-two">
+					<div class="new-bottom-one-one">
+					<p style="margin-top:40px;">卓瑞端</p>
+					<p>南园·多梦时节系列之四</p>
+					<p>纸本水墨 45x80cm</p>
+					<p style="font-weight: bold;">¥16,050</p>
+					</div>
+					<img src="https://cdn.ywart.com/yw/20171025171657353f1071348.jpg@260h_260w_1e_1c_1wh_90Q" width="130px" height="130px" class="new-bottom-two-img">
+				</div>
+				</div>
+				<div>
+					<div class="new-bottom-two-two">
+					<div class="new-bottom-one-one">
+					<p style="margin-top:40px;">卓瑞端</p>
+					<p>南园·多梦时节系列之四</p>
+					<p>纸本水墨 45x80cm</p>
+					<p style="font-weight: bold;">¥16,050</p>
+					</div>
+					<img src="https://cdn.ywart.com/yw/2017071814385932951c4f36b.jpg@260h_260w_1e_1c_1wh_90Q" width="130px" height="130px" class="new-bottom-two-img">
+				</div>
+				</div>
+				<div>
+					<div class="new-bottom-two-two">
+					<div class="new-bottom-one-one">
+					<p style="margin-top:40px;">卓瑞端</p>
+					<p>南园·多梦时节系列之四</p>
+					<p>纸本水墨 45x80cm</p>
+					<p style="font-weight: bold;">¥16,050</p>
+					</div>
+					<img src="https://cdn.ywart.com/yw/20180604163918342e16511f2.jpg@260h_260w_1e_1c_1wh_90Q" width="130px" height="130px" class="new-bottom-two-img">
+				</div>
+				</div>
+			</div>
+			<div class="new-bottom-two">
+				<div class="new-bottom-two-two">
+					<div class="new-bottom-one-one">
+					<p style="margin-top:40px;">卓瑞端</p>
+					<p>南园·多梦时节系列之四</p>
+					<p>纸本水墨 45x80cm</p>
+					<p style="font-weight: bold;">¥16,050</p>
+					</div>
+					<img src="https://cdn.ywart.com/yw/201710241601267120c4ada5a.jpg@260h_260w_1e_1c_1wh_90Q" width="130px" height="130px" class="new-bottom-two-img">
+				</div>
+				<div>
+					<div class="new-bottom-two-two">
+					<div class="new-bottom-one-one">
+					<p style="margin-top:40px;">卓瑞端</p>
+					<p>南园·多梦时节系列之四</p>
+					<p>纸本水墨 45x80cm</p>
+					<p style="font-weight: bold;">¥16,050</p>
+					</div>
+					<img src="https://cdn.ywart.com/yw/201709081500065166bdfed30.png@260h_260w_1e_1c_1wh_90Q" width="130px" height="130px" class="new-bottom-two-img">
+				</div>
+				</div>
+				<div>
+					<div class="new-bottom-two-two">
+					<div class="new-bottom-one-one">
+					<p style="margin-top:40px;">卓瑞端</p>
+					<p>南园·多梦时节系列之四</p>
+					<p>纸本水墨 45x80cm</p>
+					<p style="font-weight: bold;">¥16,050</p>
+					</div>
+					<img src="https://cdn.ywart.com/yw/20171220174305806427fbd0a.jpg@260h_260w_1e_1c_1wh_90Q" width="130px" height="130px" class="new-bottom-two-img">
+				</div>
+				</div>
+				<div>
+					<div class="new-bottom-two-two">
+					<div class="new-bottom-one-one">
+					<p style="margin-top:40px;">卓瑞端</p>
+					<p>南园·多梦时节系列之四</p>
+					<p>纸本水墨 45x80cm</p>
+					<p style="font-weight: bold;">¥16,050</p>
+					</div>
+					<img src="https://cdn.ywart.com/yw/2017101011392930648e4b116.jpg@260h_260w_1e_1c_1wh_90Q" width="130px" height="130px" class="new-bottom-two-img">
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="now">
+		<div class="now-right">
+			<div class="now-right-font">
+				开始
+				<br />
+				GO
+			</div>
+			<div class="now-right-color"></div>
+		</div>
+		<div class="now-left">
+			<div class="now-left-top">
+				<span>现在，去探索全新的艺术世界</span>
+			</div>
+			
+			<label>
+				<select class="now-left-select">
+					<option>类别</option>
+					<option>油画</option>
+					<option>版画</option>
+					<option>水墨</option>
+					<option>水彩（粉）</option>
+					<option>雕塑</option>
+					<option>摄影</option>
+					<option>其他</option>
+				</select>
+			</label>
+			<label>
+				<select class="now-left-select">
+					<option>类别</option>
+					<option>油画</option>
+					<option>版画</option>
+					<option>水墨</option>
+					<option>水彩（粉）</option>
+					<option>雕塑</option>
+					<option>摄影</option>
+					<option>其他</option>
+				</select>
+			</label>
+			<label>
+				<select class="now-left-select">
+					<option>类别</option>
+					<option>油画</option>
+					<option>版画</option>
+					<option>水墨</option>
+					<option>水彩（粉）</option>
+					<option>雕塑</option>
+					<option>摄影</option>
+					<option>其他</option>
+				</select>
+			</label>
+			<label>
+				<select class="now-left-select">
+					<option>类别</option>
+					<option>油画</option>
+					<option>版画</option>
+					<option>水墨</option>
+					<option>水彩（粉）</option>
+					<option>雕塑</option>
+					<option>摄影</option>
+					<option>其他</option>
+				</select>
+			</label>
+			<p class="now-left-p">前往
+			<a href="">原创艺术</a>
+			利用更强大的筛选引擎挑选作品 › </p>
+		</div>
+	</div>
+	<div class="special">
+		<img src="img/images/左右箭头_02.png">
+		<h2>专题 / SPECIAL</h2>
+		<img src="img/images/左右箭头_04.png">
+	</div>
+	<div class="special-img">
+		<div class="special-img-one">
+			<img src="https://cdn.ywart.com/material/topic_cover/20171222173115238937f619d.jpg@90q">
+			<div class="special-img-two">
+				<h3>身体or心灵，总有一个要在路上</h3>
+				<p>当看过了山和大海，穿过了人山人海，不管是停下脚步还是继续前行，都会对曾经看过的风景见过的人，有种放不下忘不了的情感，而这种旅行情结，或许可以靠画作来治愈。</p>
+			</div>
+		</div>
+		<div class="special-img-one">
+			<img src="https://cdn.ywart.com/material/topic_cover/201712221734330325e0d83b6.jpg@90q">
+			<div class="special-img-two">
+				<h3>红唇如画·性感不只裸露</h3>
+				<p>选择一幅“红唇”，让艺术给你一个爱的么么哒。</p>
+			</div>
+		</div>
+		<div class="special-img-one">
+			<img src="https://cdn.ywart.com/material/topic_cover/2018052213431426684c337b8.jpg@90q">
+			<div class="special-img-two">
+				<h3>一见钟情</h3>
+				<p>喂，我一见你就挺钟情的一见钟情要多久？答案是30秒。目光所及，赏心悦目，心生欢喜，然后便希望时时刻刻拥有在身边。</p>
+			</div>
+		</div>
+		<div class="special-img-one">
+			<img src="https://cdn.ywart.com/material/topic_cover/2018040311130371266ba5a30.jpg@90q">
+			<div class="special-img-two">
+				<h3>佛系居家，宁静和谐</h3>
+				<p>小长假购画首选，活佛艺术家耷·琼培限量版新概念唐卡588元，给予你来自喜马拉雅的祝福。</p>
+			</div>
+		</div>
+		<div class="special-img-three">
+			<img src="https://cdn.ywart.com/material/topic_cover/2018040311130371266ba5a30.jpg@90q">
+			<div>
+				<h3>佛系居家，宁静和谐</h3>
+				<p>小长假购画首选，活佛艺术家耷·琼培限量版新概念唐卡588元，给予你来自喜马拉雅的祝福。</p>
+			</div>
+		</div>
+	</div>
+	<div class="artist">
+		<div class="artist-top">
+			<h2>艺术家 / ARTIST</h2>
+			<span>作品征集全面开放</span>
+		</div>
+		<div class="artist-bottom">
+			<div class="artist-bottom-left">
+				<img src="https://cdn.ywart.com/material/ArtistRecommend/wangyunchen.jpg@320h_450w_1e_1c_1wh_90Q">
+				<div class="artist-bottom-left-bottom">
+					<h3>王韫琛：无意识等级</h3>
+					<p>数字文化下关于信仰的重构。</p>
+				</div>
+			</div>
+			<div class="artist-bottom-right">
+				<div class="artist-bottom-right-top"><p>更多艺术家</p></div>
+				<div class="artist-bottom-right-bottom">
+					<div class="artist-one">
+						<img src="https://cdn.ywart.com/yw/201703081717101626c21e9da.jpg@260h_260w_1e_1c_1wh_90Q" class="artist-one1">
+						<img src="https://cdn.ywart.com/yw/201703081717575213f1c1d91.jpg@130h_130w_1e_1c_1wh_90Q" class="artist-one2">
+						<img src="https://cdn.ywart.com/yw/201703081719118856cc88681.jpg@86h_86w_1e_1c_1wh_90Q" class="artist-one3">
+						<div class="artist-name">
+							<p style="margin-top: 22px;">吴霜</p>
+							<p>20件</p>
+						</div>
+					</div>
+					<div class="artist-one" style="margin-left: 42px;">
+						<img src="https://cdn.ywart.com/yw/20160706102835448f6626f7d.jpg@86h_86w_1e_1c_1wh_90Q" class="artist-one4">
+						<img src="https://cdn.ywart.com/yw/20160916130322395f2d91d57.jpg@130h_130w_1e_1c_1wh_90Q" class="artist-one5">
+						<img src="https://cdn.ywart.com/yw/20170217110211923d38a8752.jpg@260h_260w_1e_1c_1wh_90Q" class="artist-one6">
+						<div class="artist-name1">
+							<p>吴思雨</p>
+							<p style="margin-bottom: 22px;">8件</p>
+						</div>
+					</div>
+					<div class="artist-one" style="margin-left: 42px;">
+						<img src="https://cdn.ywart.com/yw/201701041519448135768e081.jpg@86h_86w_1e_1c_1wh_90Q" class="artist-one1">
+						<img src="https://cdn.ywart.com/yw/201610271140220405a469a21.png@130h_130w_1e_1c_1wh_90Q" class="artist-one2">
+						<img src="https://cdn.ywart.com/yw/2016102711430174378df0f63.jpg@260h_260w_1e_1c_1wh_90Q" class="artist-one3">
+						<div class="artist-name">
+							<p style="margin-top: 22px;">牟林童</p>
+							<p>4件</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="insight">
+			<h2 style="float: left;margin-top:45px;">艺视野 / INSIGHT</h2>
+			<span>更多</span>
+	</div>
+	<div class="insight-img">
+		<div class="insight-left">
+			<div class="insight-left-img"><img src="https://cdn.ywart.com/material/index/leftsight.jpg"></div>
+			<div>
+				<h3>艺网 | 携手顶级专业艺术机构开创合作新模式</h3>
+				<div class="line"></div>
+				<p>全球领先艺术电商艺网（YWART.COM）倾力打造最高水准的原创艺术品消费平台。艺网网络科技旗下高端新版块“藏艺术”分享会近日亮相京城艺术地标798。著名当代艺术策展人、艺网创始人朱彤介绍，藏艺术致力于“吸引更多圈外藏家”，打破收藏级艺术品的固有圈层，开启“线上交易+收藏”的艺术互联网模式。</p>
+			</div>
+		</div>
+		<div class="insight-right">
+			<div class="insight-left-img"><img src="https://cdn.ywart.com/material/view1/index/wujie.jpg@90q"></div>
+			<div>
+				<h3>UNBOUNDED 意大利曼特尼亚美术馆中国当代艺术展</h3>
+				<div class="line"></div>
+				<p>意大利时间3月29日下午六点，“无界——中国当代艺术展”在意大利的曼特尼亚美术馆揭开序幕。此次展览的主题“无界”可以被理解为“无穷大”或者“无边界”，它既是一次中国当代艺术和文艺复兴绘画之间的对话，也是一次让世界再次感知中国当代艺术魅力的契机。</p>
+			</div>
+		</div>
+	</div>
+	<div class="whyus">
+		<h3>为什么选择艺网 / WHY US</h3>
+	</div>
+	<div class="whyus-bottom">
+		<div class="whyus-one">
+			<div><img src="https://www.ywart.com/content/image/feature3.svg"></div>
+			<div class="before"></div>
+			<p class="whyus-one-p1">保真销售</p>
+			<div class="after"></div>
+			<P class="p2" style="margin-top: 30px;">艺网出售作品均为艺术家原创作品</P>
+			<P class="p2">绝无仿画及伪作</P>
+		</div>
+		<div class="whyus-one">
+			<div><img src="https://www.ywart.com/content/image/feature2.svg"></div>
+			<div class="before"></div>
+			<p class="whyus-one-p1">合作代理</p>
+			<div class="after"></div>
+			<P class="p2" style="margin-top: 30px;">艺网出售的作品均为线上下合作代理</P>
+			<P class="p2">拥有唯一销售权</P>
+		</div>
+		<div class="whyus-one">
+			<div><img src="https://www.ywart.com/content/image/feature1.svg"></div>
+			<div class="before"></div>
+			<p class="whyus-one-p1">专业定价</p>
+			<div class="after"></div>
+			<P class="p2" style="margin-top: 30px;">艺网汇聚艺术圈拥有话语权的专家团队</P>
+			<P class="p2">为上线作品进行专业定价</P>
+		</div>
+	</div>
+	<div class="explain">
+		<div class="explain-left">
+			<img src="https://cdn.ywart.com/material/index/aboutus_201609091826.jpg">
+		</div>
+		<div class="explain-right">
+			<p class="explain-p1">YWART.COM | ARTYOUWANT</p>
+			<div class="line1"></div>
+			<p class="explain-p2">艺网倾力打造的当代原创艺术品电商交易服务平台。旨在推动艺术品消费大众化，依托于专业团队，在全国范围内持续挖掘优秀艺术品，将大量经过严格筛选的高质量原创艺术品通过线上艺术品电商平台带给大众，结合线下的体验空间，形成一整套专业、可信赖的艺术消费服务。</p>
+			<a href="">了解艺网 ›</a>
+		</div>
+		<div class="explain-circle"><img src="https://www.ywart.com/Content/image/logo_notext.svg"></div>
+	</div>	
+	<div class="feature">
+		<div><h2>合作伙伴 / AS FEATURED IN</h2></div>
+		<div class="feature-in">
+			<div><img src="https://www.ywart.com/Content/image/logoGTJT.png" style="margin-left: 40px;"></div>
+			<div><img src="https://www.ywart.com/Content/image/logoJTL.png"></div>
+			<div><img src="https://cdn.ywart.com/material/icon/fangtianxia.png"></div>
+			<div><img src="https://www.ywart.com/Content/image/logoTC.png" style="margin-left: 40px;"></div>
+			<div><img src="https://www.ywart.com/Content/image/logoTDDS.png" style="margin-left: 70px;"></div>
+			<div><img src="https://www.ywart.com/Content/image/logoZS.png" style="margin-left: 70px;"></div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer">
+			<div class="footer-top">
+				<img src="https://www.ywart.com/svg_file?path=/Content/image/logo_03.svg">
+				<div class="footer-top-fav">
+					<span class="iconfont icon-weibo"></span>
+					<span class="iconfont icon-weixin"></span>
+					<p class="iconfont icon-dianhua"> 400-605-7033</p>
+				</div>
+			</div>
+			<div class="footer-middle">
+				<div class="one">
+					<h2>YWART.COM</h2>
+					<p style="margin-top: 30px;">精选</p>
+					<p>原创艺术</p>
+					<p>造艺</p>
+					<p>藏艺术</p>
+					<p>艺居生活</p>
+					<p>我的珍藏</p>
+				</div>
+				<div class="one">
+					<h2>了解我们</h2>
+					<p style="margin-top: 30px;">关于我们</p>
+					<p>工作机会</p>
+					<p>网站地图</p>
+				</div>
+				<div class="one">
+					<h2>支持与帮助</h2>
+					<p style="margin-top: 30px;">如何购买</p>
+					<p>物流说明</p>
+					<p>联系我们</p>
+				</div>
+				<div class="one">
+					<h2>合作</h2>
+					<p style="margin-top: 30px;">作品征集</p>
+					<p>合作伙伴入驻</p>
+				</div>
+				<div class="two">
+					<div class="download"><img src="https://www.ywart.com/Content/image/iosDownQRcode.png" alt="">
+						<p>扫一扫，下载app</p>
+					</div>
+					<div class="two-top" style="margin-top:145px;"><img src="https://www.ywart.com/Content/image/iosDowndark.png" alt=""></div>
+					<div class="two-top"><img src="https://www.ywart.com/Content/image/AndroidDowndark.png" alt=""></div>
+				</div>
+				
+			</div>
+			<p class="p">京ICP备16003461号 Copyright © 2015-2016 艺网YWART.COM 版权所有</p>
+			<p class="bottom">
+				<span class="span">
+					<strong>友情链接</strong>
+					<a href="">上海论坛</a>
+					<a href="">中华丹青网</a>
+					<a href="">书法交易网</a>
+					<a href="">艺术资讯</a>
+					<a href="">中华收藏网</a>
+					<a href="">主题酒店设计</a>
+					<a href="">室内设计</a>
+					<a href="">艺缘网</a>
+					<a href="">中国华人书画网</a>
+					<a href="">买购网</a>
+					<a href="">字画批发</a>
+					<a href="">中国书画百强网</a>
+					<a href="">集雅斋字画网</a>
+					<a href="">画美世界</a>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+				</span>
+			</p>
+		</div>
+	</footer>
+</section>
+</body>
+<script src="js/index.js"></script>
+</html>

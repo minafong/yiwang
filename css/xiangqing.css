@@ -1,0 +1,581 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.head{
+	width: 100%;
+	height: 50px;
+	/*background: orange;*/
+}
+.head a{
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	line-height: 50px;
+}
+.head span{
+	display: block;
+	width: 70px;
+	height: 30px;
+	border-radius: 15px;
+	background: #f8f8f8;
+	float: left;
+	margin:10px 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.iconfont{
+	display: block;
+	margin-top: -10px;
+	padding-right: 5px;
+}
+.details{
+	width: 100%;
+	height: 90px;
+	/*background: orange;*/
+	text-align: center;
+	line-height: 90px;
+}
+.details a{
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	padding: 30px;
+}
+.inform{
+	width: 1360px;
+	height: 680px;
+	margin: 0 auto;
+	/*background: orange;*/
+}
+.left{
+	width: 880px;
+	height: 100%;
+	/*background: #999;*/
+	float: left;
+}
+.right{
+	width: 400px;
+	height: 100%;
+	/*background:skyblue;*/
+	float: right;
+}
+.bigimg{
+	width: 470px;
+	height: 470px;
+	/*background: orange;*/
+	margin: 0 auto;
+}
+.bigimg img{
+	width: 100%;
+	height: 100%;
+}
+.smimg{
+	width: 110px;
+	height: 110px;
+	/*background: orange;*/
+	margin: 25px;
+	position: relative;
+}
+.smimg img{
+	width: 100%;
+	height: 100%;
+}
+.right-top{
+	width: 100%;
+	height: 55px;
+	/*background: #999;*/
+	border-bottom: 1px solid #dddddd;
+}
+.right-top a{
+	font-size: 26px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.a1{
+	display: block;
+	float: left;
+}
+.a2{
+	display: block;
+	float: right;
+}
+.price{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid #dddddd;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 80px;
+}
+.creat{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #dddddd;
+	font-size: 15px;
+	line-height: 50px;
+}
+.creat img{
+	width: 15px;
+	height: 15px;
+}
+.creat span{
+	margin-right: 25px;
+}
+.frame{
+	width: 100%;
+	height: 172px;
+	/*background: #999;*/
+	}
+.frame-top{
+	width: 100%;
+	height: 50px;
+	/*background: orange;*/
+	position: relative;
+}
+.frame-top span{
+	font-size: 15px;
+	line-height: 50px;
+	margin-right: 17px;
+}
+.frame-one{
+	display: block;
+	float: left;
+}
+.frame-two{
+	display: block;
+	float: right;
+	transform: rotate(180deg);
+}
+.frame-thr{
+	display: block;
+	float: right;
+}
+.lines{
+	width: 100%;
+	height: 1px;
+	background:#dddddd;
+	border:none;
+
+}
+.button{
+	width: 100%;
+	height:40px;
+	line-height: 40px;
+	background: #000;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	border: none;
+	margin: 20px 0;
+}
+.button:hover{
+	transform: translateY(-2px);
+	box-shadow: 0 4px 4px 0 gray;
+}
+.p{
+	width: 100%;
+	height: 20px;
+}
+.p span{
+	margin-right: 30px;
+}
+.art-information{
+	height: 655px;
+	width: 100%;
+	/*background: orange;*/
+}
+.art-information h2{
+	width: 100%;
+	height: 155px;
+	text-align: center;
+	line-height: 155px;
+}
+.img{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.img img{
+	width: 100%;
+	height:100%;
+}
+.artist{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+.artist a{
+	text-decoration: none;
+	color: #000;
+}
+.p1{
+	height: 50px;
+	font-size: 16px;
+	
+	line-height:50px; 
+}
+.p1{
+	background: url(https://cdn.ywart.com/material/artistIcon/ywart_artist_icon_level_0.png ) no-repeat 52%;
+	background-size:16px;
+}
+.p2{
+	height: 20px;
+	font-size: 14px;
+}
+.p2 a{
+	color:gray;
+}
+.p2 span{
+	font-weight: bold;
+	color: #000;
+}
+.p3{
+	font-size: 13px;
+	height: 90px;
+	line-height: 80px;
+	/*background: white;*/
+}
+.art-one{
+	width: 1205px;
+	height: 55px;
+	border-top: 1px dashed #dddddd;
+	margin: 0 auto;
+	line-height: 55px;
+}
+.art-one span{
+	display: block;
+	float: left;
+	width: 360px;
+	font-size: 16px;
+}
+.comment{
+	width: 100%;
+	height: 1500px;
+	/*background: orange;*/
+}
+.comment h2{
+	height: 125px;
+	line-height: 125px;
+	text-align: center;
+}
+.yaoman{
+	width: 1175px;
+	height: 210px;
+	margin: 0 auto;
+	background: #eee;
+}
+.yaoman i{
+	display: block;
+	font-size: 18px;
+	width: 1025px;
+	float: left;
+	margin-top: 35px;
+	line-height: 40px;
+}
+.span1{
+	display: block;
+	float: left;
+	width: 70px;
+	font-size:60px;
+	height: 100%;
+	color:gray;
+}
+.span2{
+	display: block;
+	float: right;
+	width: 70px;
+	font-size:60px;
+	height: 100%;
+	/*background: red;*/
+	color:gray;
+}
+.span3{
+	display: block;
+	float: right;
+}
+.comment-middle{
+	width: 1014px;
+	height: 300px;
+	/*background: green;*/
+	margin: 0 auto;
+}
+.comment-left{
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.comment-left img{
+	width: 100%;
+	height: 100%；
+}
+.comment-right{
+	width: 610px;
+	height: 100%;
+	float: right;
+}
+.comment-right p{
+	font-size: 14px;
+	margin:115px 0; 
+}
+.bottom{
+	margin: 70px auto;
+}
+.line{
+	width: 1210px;
+	height: 1px;
+	background: #dddddd;
+	margin: 0 auto;
+}
+.publish{
+	width: 1014px;
+	height: 256px;
+	/*background: blue;*/
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	border-bottom:1px solid #dddddd;
+}
+.publish p{
+	margin-top: 65px;
+	font-size: 18px;
+}
+.publish textarea{
+	width: 100%;
+	height: 66px;
+	background: #f8f8f8;
+	margin-top: 20px;
+	font-size: 14px;
+    color: #999;
+    padding: 6px;
+    border:none;
+    outline: none;
+}
+.publish button{
+	width: 105px;
+	height:27px;
+	font-size: 14px;
+    line-height: 27px;
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+    background-color: #CF680A;
+    letter-spacing: 15px;
+    border:none;
+    outline: none;
+    position: absolute;
+    right: 0;
+}
+.comment-bottom{
+	width: 1014px;
+	height: 150px;
+	/*background: blue;*/
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.span4{
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 15px;
+	left: 0;
+}
+.span4 img{
+	width: 100%;
+	height: 100%;
+	border-radius:50%;
+}
+.span5{
+	display: block;
+	float: left;
+	margin-left: 70px;
+	font-size: 14px;
+	line-height: 30px;
+	color: gray;
+	margin-top: 25px;
+}
+.span6{
+	display: block;
+	float: right;
+	margin-top: 30px;
+	color: gray;
+	font-size: 11px;
+}
+.zan{
+	width: 170px;
+	height: 25px;
+	/*background:#ddd;*/
+	position: absolute;
+	top: 80px;
+	right: 0;
+	line-height: 50px;
+}
+.icon-zan{ 
+	display: block;
+	float: left;
+	letter-spacing: 5px;
+}
+.icon-cai{
+	display: block;
+	float: left;
+	margin-left: 25px;
+	letter-spacing: 5px;
+}
+.zan a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	float: right;
+	line-height: 25px;
+	display: none;
+}
+.comment-bottom:hover .zan a{
+	display: block;
+}
+.tip{
+	width: 1014px;
+	height: 70px;
+	margin: 0 auto;
+	position: relative;
+	/*background: orange;*/
+}
+.tips{
+	width: 1014px;
+	height: 1114px;
+	margin: 0 auto;
+	display: none;
+	/*background:orange;*/
+}
+.tip-right{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 0;
+	top: 25px;
+	
+}
+.tip-right1{
+	width: 8px;
+	height: 8px;
+	position: absolute;
+	right: 3px;
+	top: 21px;
+	display: none;
+}
+.tip-right img{
+	width: 100%;
+	height: 100%;
+}
+ .tip-right1 img{
+	width: 100%;
+	height: 100%;
+}
+.p10{
+	float: left;
+	line-height: 70px;
+	margin-left: 10px;
+}
+.tip-img{
+	width:0;
+	height:0;
+	border:10px solid white;
+	border-color:black black white black; 
+	float: left;
+	margin-top:25px;
+}
+.p4{
+	width:984px;
+	height: 125px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 125px;
+	margin-left: 30px;
+}
+.p5{
+	width:984px;
+	height:50px;
+	font-size: 14px;
+	margin-left: 30px;
+	color: gray;
+}
+.ul1{
+	width: 984px;
+	height: 100px;
+	/*background: orange;*/
+	margin-left: 50px;
+	font-size: 14px;
+	line-height: 25px;
+	color: gray;
+}
+.p6{
+	width:984px;
+	height:25px;
+	font-size: 14px;
+	margin-left: 30px;
+	color: gray;
+}
+.bottom-img{
+	width: 100%;
+	height: 150px;
+	margin-top: 80px;
+	background:url("http://cdn.ywart.com/material/pc/ad/2018061517430480383da9c36.jpg");
+}
+.mayBelike{
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+.wrap{
+	width: 1186px;
+	height: 885px;
+	margin:0 auto;
+	/*background: orange;*/
+	overflow: hidden;
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+.item{
+	width: 280px;
+	height: 410px;
+	background: #eee;
+	margin-top:35px;
+}
+.imgbox{
+	width: 280px;
+	height: 280px;
+	background: #ccc;
+}
+.imgbox img{
+	width: 100%;
+	height: 100%;
+}
+.name{
+	margin-top: 35px;
+	margin-left: 25px;
+	font-size: 12px;
+	color: #aaaaaa;
+}
+.mate{
+	margin-left: 25px;
+	font-size: 12px;
+	color: #aaaaaa;
+	line-height: 25px;
+}
+.Price{
+	margin-left: 25px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.item:hover{
+	box-shadow: 0 0 5px 5px #aaaaaa;
+}

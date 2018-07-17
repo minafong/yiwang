@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="../css/propaganda.css">
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../font/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="../font/pro/iconfont.css" />
+	<link rel="shortcut icon" type="text/css" href="../img/favicon.png">
+<style type="text/css">
+	.more{
+		width: 1070px;
+		height: 50px;
+		margin: 0 auto;
+		border-top:2px dashed #979797;
+		/*background: red;*/
+		position: relative;
+	}
+	.more p{
+		width: 360px;
+		height: 30px;
+		position: absolute;
+		top: -25px;
+		left: 35%;
+		font-size: 30px;
+		text-align:center; 
+		font-weight: bold;
+		background: #ffffff;
+	}
+	.moreImg{
+		width: 1070px;
+		height: 660px;
+		margin: 0 auto;
+		background: #eee;
+		overflow: hidden;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:space-between;
+		
+	}
+	.items1{
+		width: 200px;
+		height: 310px;
+		background: #ffffff;
+		margin-bottom: 40px;
+
+	}
+	.imgbox1{
+		width: 200px;
+		height: 200px;
+		background: #ccc;
+	}
+	.imgbox1 img{
+		width: 100%;
+		height: 100%;
+	}
+	.items1 p{
+		font-size: 11px;
+		margin-left: 10px;
+		line-height: 20px;
+	}
+	.Price1{
+		margin-top: 10px;
+		color: #3c948b;
+		font-weight: bold;
+		font-size: 16px;
+		margin-left: 10px;
+	}
+	.items1:hover{
+		transform: translateY(-10px);
+		box-shadow: 0 3px 5px 5px #ccc;
+		transition: all .1s;
+	}
+	.btn{
+		display: block;
+		width: 40px;
+		height: 30px;
+		margin: 60px auto;
+		background: #ddd;
+		border:none;
+		text-align: center;
+		line-height: 30px;
+		/*outline: none;*/
+	}
+	.footer{
+		width: 155px;
+		height: 35px;
+		/*background: #aaa;*/
+		float: right;
+	}
+	.iconfont{
+		font-size: 35px;
+		text-decoration: none;
+		background-size: 35px;
+		border-radius: 50%;
+	}
+	.icon-weibo2{
+		color: red;
+	}
+	.icon-weibo2:hover{
+		color: white;
+		background: red;
+	}
+	.icon-weibiaoti104{
+		color: orange;
+	}
+	.icon-weibiaoti104:hover{
+		color: white;
+		background: orange;
+	}
+	.icon-qq{
+		color: blue;
+	}
+	.icon-qq:hover{
+		color: white;
+		background: blue;
+	}
+	.icon-weixin{
+		color: green;
+	}
+	.icon-weixin:hover{
+		color: white;
+		background: green;
+	}
+</style>
+</head>
+<body>
+	<section>
+	<header class="header">
+		<div class="logo">
+			<a href="../index.html">
+				<img src="https://cdn.ywart.com/header/logo.png">
+			</a>
+			<p>—原创艺术品电商</p>
+		</div>
+		<div class="header-mid">
+			<div class="works">
+				<a href="">作品</a>
+				<a class="iconfont icon-down"></a>
+				<div class="second">
+					<p style="font-weight: bold;border-bottom: 1px solid #ccc;">作品</p>
+					<p>艺术家</p>
+				</div>
+			</div>
+			<img  src="https://www.ywart.com/svg_file?path=/Content/image/search.svg&rgb=51,51,51">
+			<input type="" name="" placeholder="搜索感兴趣的关键字">
+		</div>
+		<div class="header-right">
+			<div class="header-right-one">
+				<a href=""><img src="https://cdn.ywart.com/header/app.png"></a>
+				<a href="" class="header-right-text">下载APP</a>
+			</div>
+			<div class="header-right-two">
+				<a href=""><img src="https://cdn.ywart.com/header/login.png"></a>
+				<a href="./denglu.html" class="header-right-text">登录/注册</a>
+			</div>
+			<div class="header-right-three">
+				<a href=""><img src="https://cdn.ywart.com/header/car.png"></a>
+				<a href="" class="header-right-text">购物车</a>
+			</div>
+		</div>
+	</header>
+	<div class="menu">
+		<div class="index" style="margin-left: 32%;">
+			<a href="../index.html">首页</a>
+		</div>
+		<div class="arts">
+			<a href="./lists.html">原创艺术</a>
+		</div>
+		<div class="index">
+			<a href="">造艺</a>
+		</div>
+		<div class="tibetin-art">
+			<a href="">藏艺术</a>
+		</div>
+		<div class="arts">
+			<a href="">艺居生活</a>
+		</div>
+	</div>
+	<div class="banner"><img src="https://pages.ywart.com/Media/Default/%E7%88%B6%E4%BA%B2%E8%8A%82%E4%B8%93%E9%A2%98/PC%E4%B8%93%E9%A2%98-1.jpg" alt=""></div>
+	<div class="introduce">
+		<dl>
+			<dt>我的父亲——他爱我，只是不善言表</dt>
+			<dd class="item" style="margin-top: 45px;">父爱无言，是我从无到有，从弱到强。</dd>
+			<dd class="item">父爱无声，平淡平凡，又深沉厚重。</dd>
+			<dd class="item" style="margin-top: 45px; font-size: 11px;">2018.6.15-2018.6.30</dd>
+			<dd class="item">原创艺术全场满<span style="color: red; font-weight: bold;">6888</span>元</dd>
+			<dd class="item">赠限量珍藏版画一幅</dd>
+		</dl>
+	</div>
+	<div class="recommend">
+		<h2>--特别推荐--</h2>
+		<div class="wrap">
+			<!-- <div class="items">
+				<div class="imgbox"><img src="https://cdn.ywart.com/yw/20160423174739994faaf38c0.jpg@560h_560w_1e_1c_1wh_90Q" alt=""></div>
+				<p style="margin-top: 15px;">杜溪</p>
+				<p>静、净 2015</p>
+				<p>布面油画 120.00x100.00cm</p>
+				<h5 class="Price">￥16,350</h5>
+			</div> -->
+		</div>
+	</div>
+	<div class="more">
+		<p>更多作品</p>
+	</div>
+	<div class="moreImg">
+		<div class="items1">
+			<div class="imgbox1"><img src="https://cdn.ywart.com/yw/20160423174739994faaf38c0.jpg@560h_560w_1e_1c_1wh_90Q" alt=""></div>
+			<p style="margin-top: 15px;">杜溪</p>
+			<p>静、净 2015</p>
+			<p>布面油画 120.00x100.00cm</p>
+			<h5 class="Price1">￥16,350</h5>
+		</div>
+		<div class="items1">
+			<div class="imgbox1"><img src="https://cdn.ywart.com/yw/20170511172802098f7d710f4.png_test02" alt=""></div>
+			<p style="margin-top: 10px;">刘磊</p>
+			<p>深秋、垂钓 纸本水彩</p>
+			<p>21.5x21.5cm</p>
+			<h5 class="Price1">￥16,350</h5>
+		</div>
+		<div class="items1">
+			<div class="imgbox1"><img src="https://cdn.ywart.com/yw/20160719124119003761c1547.jpg_test02" alt=""></div>
+			<p style="margin-top: 15px;">续彦龙</p>
+			<p>观而不语、臆想 铜版</p>
+			<p>75.00x20.00cm</p>
+			<h5 class="Price1">￥10,260</h5>
+		</div>
+		<div class="items1">
+			<div class="imgbox1"><img src="https://cdn.ywart.com/yw/20170302140614211aca696b2.jpg_test02" alt=""></div>
+			<p style="margin-top: 15px;">姚福兴</p>
+			<p>白桦</p>
+			<p>布面油画 80.00x60.00cm</p>
+			<h5 class="Price1">￥6,260</h5>
+		</div>
+		<div class="items1">
+			<div class="imgbox1"><img src="https://cdn.ywart.com/yw/2016042510373159415a2f6f3.jpg_test02" alt=""></div>
+			<p style="margin-top: 15px;">宛成</p>
+			<p>威尼斯的黄昏 油画棒</p>
+			<p>30.00x20.00cm</p>
+			<h5 class="Price1">￥10,120</h5>
+		</div>
+		<div class="items1">
+			<div class="imgbox1"><img src="https://cdn.ywart.com/yw/201604222056333659db9b370.jpg_test02" alt=""></div>
+			<p style="margin-top: 15px;">张强</p>
+			<p>高山雪原 布面油画</p>
+			<p>64.00x45.00cm</p>
+			<h5 class="Price1">￥4,920</h5>
+		</div>
+		<div class="items1">
+			<div class="imgbox1"><img src="https://cdn.ywart.com/yw/20160825171221201daeabd4c.jpg_test02" alt=""></div>
+			<p style="margin-top: 15px;">吴伟林</p>
+			<p>错误法则No.7 布面丙烯</p>
+			<p>100.00x100.00cm</p>
+			<h5 class="Price1">￥12,350</h5>
+		</div>
+		<div class="items1">
+			<div class="imgbox1"><img src="https://cdn.ywart.com/yw/201611161640407110a14b7f8.jpg_test02" alt=""></div>
+			<p style="margin-top: 15px;">文斯</p>
+			<p>某年某月某日之四 布面丙烯</p>
+			<p>120.00x60.00cm</p>
+			<h5 class="Price1">￥8,350</h5>
+		</div>
+		<div class="items1">
+			<div class="imgbox1"><img src="https://cdn.ywart.com/yw/2017050412572351751930f1e.jpg_test02" alt=""></div>
+			<p style="margin-top: 15px;">雷国胜</p>
+			<p>山 布面油画</p>
+			<p>50.00x40.00cm</p>
+			<h5 class="Price1">￥4,120</h5>
+		</div>
+		<div class="items1">
+			<div class="imgbox1"><img src="https://cdn.ywart.com/yw/20160423180437801830b931b.jpg_test02" alt=""></div>
+			<p style="margin-top: 15px;">尤利亚.特薇利琴娜</p>
+			<p>北欧秘境 布面油画</p>
+			<p>120.00×100.00cm</p>
+			<h5 class="Price1">￥16,000</h5>
+		</div>
+	</div>
+	<button class="btn">︽</button>
+	<footer class="footer">
+		<a href="" class="iconfont icon-weibo2"></a>
+		<a href="" class="iconfont icon-weibiaoti104"></a>
+		<a href="" class="iconfont icon-qq"></a>
+		<a href="" class="iconfont icon-weixin"></a>
+	</footer>
+</section>	
+</body>
+<script src="../js/propaganda.js"></script>
+</html>
